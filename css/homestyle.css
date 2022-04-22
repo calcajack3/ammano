@@ -1,0 +1,15 @@
+#carouselExampleControls {
+    width: 60%;
+}
+
+@media (max-width:767px) {
+    #carouselExampleControls {
+        width: 80%;
+    }
+}
+
+@media (max-width:467px) {
+    #carouselExampleControls {
+        width: 90%;
+    }
+}
