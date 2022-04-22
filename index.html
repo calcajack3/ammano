@@ -5,14 +5,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/homestyle.css">
     <title>Ammano</title>
 </head>
 
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #40758C;">
         <div class="container-fluid">
-            <a class="navbar-brand  ps-2" href="index.html">
-                <img src="images/logoammano.svg" alt="ammano" height="40em">
+            <a class="navbar-brand  ps-2" href="../index.html">
+                <img src="../images/logoammano.svg" alt="ammano" height="40em">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +22,7 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item px-2 fs-5">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item px-2 fs-5">
                         <a class="nav-link active" href="borse.html">Borse</a>
@@ -39,13 +40,12 @@
                     <li class="nav-item px-2 fs-5"><a href="https://it-it.facebook.com/gisella.ammano" target="_blank"
                             class="nav-link bi bi-facebook"></a></li>
                     <li class="nav-item px-2 fs-5"><a href="#" class="nav-link bi bi-instagram"></a></li>
-                    <li class="nav-item px-2 fs-5"><a href="#" class="nav-link bi bi-pinterest"></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div id="carouselExampleControls" class="carousel slide pt-3 mx-auto" data-bs-ride="carousel" style="width:60%;">
+    <div id="carouselExampleControls" class="carousel slide pt-3 mx-auto" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/accessori/IMG-20220406-WA0033.jpg" class="d-block w-100 rounded-3" alt="...">
@@ -77,7 +77,7 @@
 
             <div class="row gx-5">
                 <div class="col-md-4">
-                    <a class="text-decoration-none" href="borse.html">
+                    <a class="text-decoration-none" href="pages/borse.html">
                         <div class="card mb-4 box-shadow mx-auto" , style="background-color: #2A9D8F; width: 90%;">
                             <img class="card-img-top pt-1 px-1" src="images/borse.jpg">
                             <div class="card-body">
@@ -87,7 +87,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a class="text-decoration-none" href="borse.html">
+                    <a class="text-decoration-none" href="pages/borse.html">
                         <div class="card mb-4 box-shadow mx-auto" , style="background-color: #2A9D8F; width: 90%;">
                             <img class="card-img-top pt-1 px-1" src="images/vestiti.jpg">
                             <div class="card-body">
@@ -97,7 +97,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a class="text-decoration-none" href="borse.html">
+                    <a class="text-decoration-none" href="pages/borse.html">
                         <div class="card mb-4 box-shadow mx-auto" , style="background-color: #2A9D8F; width: 90%;">
                             <img class="card-img-top pt-1 px-1" src="images/cucina.jpg">
                             <div class="card-body">
@@ -113,7 +113,7 @@
 
             <div class="row gx-5">
                 <div class="col-md-4">
-                    <a class="text-decoration-none" href="borse.html">
+                    <a class="text-decoration-none" href="pages/borse.html">
                         <div class="card mb-4 box-shadow mx-auto" , style="background-color: #2A9D8F; width: 90%;">
                             <img class="card-img-top pt-1 px-1" src="images/borse.jpg">
                             <div class="card-body">
@@ -123,7 +123,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a class="text-decoration-none" href="borse.html">
+                    <a class="text-decoration-none" href="pages/borse.html">
                         <div class="card mb-4 box-shadow mx-auto" , style="background-color: #2A9D8F; width: 90%;">
                             <img class="card-img-top pt-1 px-1" src="images/vestiti.jpg">
                             <div class="card-body">
@@ -133,18 +133,17 @@
                     </a>
                 </div>
 
-
             </div>
 
         </div>
     </div>
 
 
-
+    <!-- bottom navbar -->
     <div class="container-fluid border-top">
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center  my-4">
-                <p class="col-md-4 mb-0 text-muted">© 2022 Ammano</p>
+                <p id="copyright" class="col-md-4 mb-0 text-muted">© 2022 Ammano</p>
 
                 <a href="#top"
                     class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
@@ -153,12 +152,14 @@
 
                 <ul class="nav col-md-4 justify-content-end">
                     <li class="nav-item"><a href="#top" class="nav-link px-2 text-muted">Home</a></li>
-                    <li class="nav-item"><a href="borse.html" class="nav-link px-2 text-muted">Borse</a></li>
+                    <li class="nav-item"><a href="pages/borse.html" class="nav-link px-2 text-muted">Borse</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Vestiti</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Cucina</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
                     <li class="nav-item"><a href="https://it-it.facebook.com/gisella.ammano" target="_blank"
                             class="nav-link bi bi-facebook"></a></li>
+                    <li class="nav-item"><a href="#" target="_blank" class="nav-link bi bi-instagram text-black"></a>
+                    </li>
 
                 </ul>
             </footer>
