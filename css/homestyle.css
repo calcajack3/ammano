@@ -1,3 +1,17 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    margin-top: auto;
+}
+
 #carouselExampleControls {
     width: 60%;
 }
