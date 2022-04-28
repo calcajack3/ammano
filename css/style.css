@@ -19,6 +19,12 @@
     color: black !important;
 }
 
+.navbar-toggler {
+    color: black !important;
+    border: 3px solid;
+    border-color: black!important;
+}
+
 /* Stick the footer to the bottom of the page  */
 
 html {
