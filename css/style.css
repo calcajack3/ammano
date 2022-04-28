@@ -1,6 +1,17 @@
-/* nav link font size adjustment  */
+/* nav link and logos font size adjustment  */
 .nav-link.active {
-    font-size:large
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.bi {
+    color: black;
+}
+
+.nav.col-md-4.justify-content-end .text-muted {
+    font-weight: 600;
+    font-size: large;
+    color: black !important;
 }
 
 /* Stick the footer to the bottom of the page  */
@@ -13,6 +24,7 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Indie Flower', cursive;
 }
 
 #footer {

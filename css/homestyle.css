@@ -1,5 +1,7 @@
-
-
+/* card title font adjustment */
+.card-title{
+    font-weight: 600;
+}
 
 
 /* adjust carousel dimension  */
