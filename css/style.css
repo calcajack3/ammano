@@ -5,8 +5,16 @@
 
 /* nav link and logos font size adjustment  */
 .nav-link.active {
-    /* font-size: xx-large; */
     font-weight: 600;
+}
+
+@media (max-width:700px) {
+    .nav-link.active {
+        font-size: xx-large;
+    }
+    .navbar-nav .nav-link.bi {
+        font-size: xx-large;
+    }
 }
 
 .navbar-nav .nav-link.bi {
@@ -22,7 +30,7 @@
 .navbar-toggler {
     color: black !important;
     border: 3px solid;
-    border-color: black!important;
+    border-color: black !important;
 }
 
 /* Stick the footer to the bottom of the page  */
