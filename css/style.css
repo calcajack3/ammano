@@ -1,3 +1,5 @@
+/* Stick the footer to the bottom of the page  */
+
 html {
   height: 100%;
 }
@@ -11,7 +13,8 @@ body {
 #footer {
   margin-top: auto;
 }
-
+ 
+/* Create the image animation */
 
 #myImg {
   border-radius: .5rem;

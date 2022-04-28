@@ -1,3 +1,5 @@
+/* Stick the footer to the bottom of the page  */
+
 html {
     height: 100%;
 }
@@ -12,9 +14,12 @@ body {
     margin-top: auto;
 }
 
+/* adjust carousel dimension  */
 #carouselExampleControls {
     width: 60%;
 }
+
+/* mobile carousel adjustment  */
 
 @media (max-width:767px) {
     #carouselExampleControls {
