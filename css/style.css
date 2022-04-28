@@ -8,12 +8,21 @@
     font-weight: 600;
 }
 
+#navlogo {
+    height: 3rem;
+}
+
 @media (max-width:700px) {
     .nav-link.active {
         font-size: xx-large;
     }
+
     .navbar-nav .nav-link.bi {
         font-size: xx-large;
+    }
+
+    #navlogo {
+        height: 4rem;
     }
 }
 
