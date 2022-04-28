@@ -1,18 +1,6 @@
-/* Stick the footer to the bottom of the page  */
 
-html {
-    height: 100%;
-}
 
-body {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
-#footer {
-    margin-top: auto;
-}
 
 /* adjust carousel dimension  */
 #carouselExampleControls {
