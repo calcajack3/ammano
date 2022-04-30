@@ -12,7 +12,7 @@
     height: 3rem;
 }
 
-@media (max-width:700px) {
+@media (max-width:990px) {
     .nav-link.active {
         font-size: xx-large;
     }

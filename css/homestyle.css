@@ -1,5 +1,5 @@
 /* card title font adjustment */
-.card-title{
+.card-title {
     font-weight: 600;
 }
 
@@ -11,13 +11,7 @@
 
 /* mobile carousel adjustment  */
 
-@media (max-width:767px) {
-    #carouselExampleControls {
-        width: 80% !important;
-    }
-}
-
-@media (max-width:500px) {
+@media (max-width:990px) {
     #carouselExampleControls {
         width: 90% !important;
     }
