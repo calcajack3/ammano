@@ -12,14 +12,18 @@
     height: 3rem;
 }
 
+#footerlogo {
+    height: 3.5rem;
+}
 
+/* navbar logos color and font weight adjustments */
 .navbar-nav .nav-link.bi {
     color: black;
 }
 
 .nav-link.text-muted {
     font-weight: 600;
-    font-size: large;
+    font-size: 1.2rem;
     color: black !important;
 }
 
@@ -49,19 +53,20 @@ body {
 
 
 @media (max-width:990px) {
-    .nav-link.active {
+    .nav-link.active, .navbar-nav .nav-link.bi, #footer .nav-item, .nav-link.text-muted, #copyright, .card-title {
         font-size: xx-large;
     }
 
-    .navbar-nav .nav-link.bi {
-        font-size: xx-large;
+    .nav-link.text-muted {
+        padding: 0px;
     }
 
     #navlogo {
         height: 4rem;
     }
 
-    #footer .nav-item, .nav-link.text-muted {
-        font-size: xx-large;
+    #footerlogo {
+        height: 4rem;
     }
+
 }
