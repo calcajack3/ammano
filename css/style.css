@@ -12,6 +12,10 @@
     height: 3rem;
 }
 
+#footerlogo {
+    height: 3.5rem;
+}
+
 
 .navbar-nav .nav-link.bi {
     color: black;
@@ -49,11 +53,7 @@ body {
 
 
 @media (max-width:990px) {
-    .nav-link.active {
-        font-size: xx-large;
-    }
-
-    .navbar-nav .nav-link.bi {
+    .nav-link.active, .navbar-nav .nav-link.bi, #footer .nav-item, .nav-link.text-muted, #copyright {
         font-size: xx-large;
     }
 
@@ -61,7 +61,8 @@ body {
         height: 4rem;
     }
 
-    #footer .nav-item, .nav-link.text-muted {
-        font-size: xx-large;
+    #footerlogo {
+        height: 4rem;
     }
+
 }
