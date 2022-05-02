@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <!-----   Logo   ------>
             <a class="navbar-brand  ps-2" href="../index.html">
-                <img src="../images/logoammano.svg" alt="ammano" height="50em">
+                <img id="navlogo" src="../images/logoammano.svg" alt="ammano" height="50em">
             </a>
             <!-----   collapse toggle   ------>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -61,10 +61,10 @@
     <!-----   Image Album  ------>
 
     <div class="album py-5" style="background-color: #ffffff">
-        <div class="container">
+        <div class="container-lg px-md-5">
 
             <!-----   first group   ------>
-            <div class="row gx-3">
+            <div class="row row-cols-auto gx-3 justify-content-center">
                 <!---------------   element start  ---------------->
                 <div class="col-md-4">
                     <div class="card mb-1 box-shadow" style="background-color: #fafafa;">
@@ -120,10 +120,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
 
-            <!-- second group -->
-            <div class="row gx-3">
                 <div class="col-md-4">
                     <a class="text-decoration-none" style="color:black" href="image.html">
                         <div class="card mb-1 box-shadow" style="background-color: #fafafa;">
@@ -160,10 +157,6 @@
                     </a>
                 </div>
 
-            </div>
-
-            <!-- third group -->
-            <div class="row gx-3">
                 <div class="col-md-4">
 
                     <div class="card mb-1 box-shadow" style="background-color: #fafafa;">
@@ -205,6 +198,10 @@
                     </div>
 
                 </div>
+
+                <!-- second group -->
+                <div class="row gx-3">
+                </div>
             </div>
         </div>
     </div>
@@ -222,7 +219,7 @@
                     <img id="footerlogo" src="../images/logoammano.svg" alt="ammano">
                 </a>
 
-                <ul class="nav col-4 justify-content-lg-end justify-content-center">
+                <ul class="nav col-4 justify-content-lg-end justify-content-center align-items-center">
                     <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
                     <li class="nav-item"><a href="#top" class="nav-link px-2 text-muted">Borse</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Vestiti</a></li>
