@@ -27,9 +27,6 @@
     font-size: 3rem;
 }
 
-.nav-link.text-muted {
-    color: black !important;
-}
 
 #navlogo {
     height: 6rem;
@@ -37,6 +34,10 @@
 
 #footerlogo {
     height: 4rem;
+}
+
+.nav-link.text-muted {
+    color: black !important;
 }
 
 .navbar-toggler-icon {
@@ -86,12 +87,31 @@ body {
         font-size: 1.2rem;
     }
 
+    .nav-link.active, .navbar-nav .nav-link.bi {
+        font-size: 2rem;
+    }
+
+
+    #footer .nav-item, footer .nav-link, #copyright {
+        font-size: 1.5rem
+    }
+
+    .card-title {
+        font-size: 2.5rem;
+    }
+
+
     #navlogo {
-        height: 3rem;
+        height: 3.5rem;
     }
 
     #footerlogo {
         height: 3.5rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 3rem;
+        height: 3rem;
     }
 
 }
