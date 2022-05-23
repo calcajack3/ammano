@@ -5,7 +5,12 @@
 
 .card.mb-5 {
     width: 90%;
-    background-color: cadetblue;
+    background-color: #00ADB5;
+}
+
+/* navbar color  */
+nav {
+    background-color: #00ADB5;
 }
 
 /* nav link and logos font size adjustment  */
@@ -68,8 +73,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Indie Flower', sans-serif;
-    background-image: url(../images/logos/ammano1.png);
-    background-size: 10%;
 }
 
 #footer {
