@@ -67,7 +67,9 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', sans-serif;
+    background-image: url(../images/logos/Ammano\ 1.png);
+    
 }
 
 #footer {
