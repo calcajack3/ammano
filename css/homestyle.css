@@ -6,13 +6,29 @@
 
 /* adjust carousel dimension  */
 #carouselExampleControls {
-    width: 60%;
+    padding: 0 20vw;
+}
+
+.carousel-control-prev {
+    left: 15vw;
+}
+
+.carousel-control-next {
+    right: 15vw;
 }
 
 /* mobile carousel adjustment  */
 
 @media (max-width:990px) {
     #carouselExampleControls {
-        width: 90% !important;
+        padding: 0 10vw;
+    }
+
+    .carousel-control-prev {
+        left: 5vw;
+    }
+
+    .carousel-control-next {
+        right: 5vw;
     }
 }

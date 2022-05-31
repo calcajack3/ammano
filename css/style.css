@@ -5,7 +5,12 @@
 
 .card.mb-5 {
     width: 90%;
-    background-color: cadetblue;
+    background-color: #00ADB5;
+}
+
+/* navbar color  */
+nav {
+    background-color: #00ADB5;
 }
 
 /* nav link and logos font size adjustment  */
@@ -20,7 +25,7 @@
 
 
 #footer .nav-item, footer .nav-link, #copyright {
-    font-size: 2.5rem
+    font-size: 3rem
 }
 
 .card-title {
@@ -67,7 +72,7 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', sans-serif;
 }
 
 #footer {
@@ -88,7 +93,7 @@ body {
     }
 
     .nav-link.active, .navbar-nav .nav-link.bi {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
 
@@ -102,11 +107,11 @@ body {
 
 
     #navlogo {
-        height: 3.5rem;
+        height: 3rem;
     }
 
     #footerlogo {
-        height: 3.5rem;
+        height: 3rem;
     }
 
     .navbar-toggler-icon {
