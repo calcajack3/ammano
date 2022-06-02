@@ -25,6 +25,7 @@
 
     #carouselExampleControls {
         padding: 0 20vw;
+        max-width: 90%;
     }
 
     .carousel-control-prev {
