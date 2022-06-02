@@ -25,7 +25,6 @@
 
     #carouselExampleControls {
         padding: 0 20vw;
-        max-width: 90%;
     }
 
     .carousel-control-prev {
@@ -35,4 +34,11 @@
     .carousel-control-next {
         right: 15vw;
     }
+}
+
+@media (min-width:1900px) {
+    #carouselExampleControls {
+        max-width: 90%;
+    }
+
 }
