@@ -25,7 +25,7 @@ nav {
 
 
 #footer .nav-item, footer .nav-link, #copyright {
-    font-size: 3rem
+    font-size: 2.5rem
 }
 
 .card-title {
@@ -107,7 +107,7 @@ body {
 
 
     #navlogo {
-        width: 30vw;
+        width: 20vw;
     }
 
     #footerlogo {

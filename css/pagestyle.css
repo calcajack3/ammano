@@ -2,6 +2,14 @@
   border: 0
 }
 
+.album {
+  padding-top: 1.5rem !important;
+}
+
+.col-md-4 {
+  width: 80vw
+}
+
 .card-body {
   padding: 0.5rem 0;
 }
