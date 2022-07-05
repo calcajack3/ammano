@@ -20,7 +20,7 @@ nav {
 }
 
 .nav-link.active, .navbar-nav .nav-link.bi {
-    font-size: 4rem;
+    font-size: 8vw;
 }
 
 
@@ -34,7 +34,7 @@ nav {
 
 
 #navlogo {
-    height: 6rem;
+    width: 60vw;
 }
 
 #footerlogo {
@@ -46,8 +46,8 @@ nav {
 }
 
 .navbar-toggler-icon {
-    width: 4rem;
-    height: 4rem;
+    width: 10vw;
+    height: 10vw;
 }
 
 /* navbar logos color and font weight adjustments */
@@ -107,7 +107,7 @@ body {
 
 
     #navlogo {
-        height: 3rem;
+        width: 30vw;
     }
 
     #footerlogo {
