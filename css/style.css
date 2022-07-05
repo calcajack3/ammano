@@ -107,7 +107,7 @@ body {
 
 
     #navlogo {
-        width: 20vw;
+        width: clamp(250px, 25vw, 300px);
     }
 
     #footerlogo {
