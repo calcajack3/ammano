@@ -1,7 +1,13 @@
-
-
 .card {
   border: 0
+}
+
+.album {
+  padding-top: 1.5rem !important;
+}
+
+.col-md-4 {
+  max-width: 80vw
 }
 
 .card-body {
