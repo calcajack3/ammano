@@ -1,7 +1,7 @@
 # Ammano website
 
 ## Description
-First attempt of website using HTML, Bootstrap v5.1 for styling with some custom CSS and some simple javascript code for images animations.\
+First design of website using HTML, Bootstrap v5.1 for styling with some custom CSS and some simple javascript code for images animations.\
 The website's purpouse is to show some products divided by categories, allowing the user to click on them to see them full screen.
 
 ## Documentation
