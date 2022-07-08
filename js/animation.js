@@ -13,7 +13,8 @@ for (var i = 0; i < images.length; i++) {
     // and attach our click listener for this image.
     img.onclick = function (evt) {
         console.log(evt);
-        modal.style.display = "block";
+        modal.style.display = "flex";
+        modal.style.flexDirection = "column";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
     }
