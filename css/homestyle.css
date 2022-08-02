@@ -7,15 +7,15 @@
 
 /* adjust carousel dimension  */
 #carouselExampleControls {
-    padding: 0 1vw;
+    padding: 5vw;
 }
 
 .carousel-control-prev {
-    left: 5vw;
+    left: 2vw;
 }
 
 .carousel-control-next {
-    right: 5vw;
+    right: 2vw;
 }
 
 /* desktop carousel adjustment  */
